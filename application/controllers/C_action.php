@@ -1,6 +1,9 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+/* 
+	Created By : Andi Febianto
+*/
 class C_action extends CI_Controller {
 	function login_proses(){
 		$this->load->model('m_nasabah');
